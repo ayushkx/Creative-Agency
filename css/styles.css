@@ -149,7 +149,7 @@ section.home{
 }
 
 /* BUTTON */
-.btn {
+.btn1 {
     background: var(--primary-color);
     cursor: pointer;
     display: inline-block;
@@ -160,7 +160,7 @@ section.home{
     border: 0;
 }
 
-.btn:hover{
+.btn1:hover{
     transform: scale(0.98);
 }
 
@@ -178,7 +178,7 @@ section.home{
 }
 
 .services .service:hover{
-    box-shadow: 0 10px 30px rgba(39, 81, 145, 0.2);
+    box-shadow: 0 10px 30px rgba(39, 81, 145, 0.1);
 }
 
 .services .service h2{
@@ -273,6 +273,8 @@ section.home{
     width: 100%;
     margin: 0 10px;
 }
+
+
 
 .contact-form .row input, .contact-form .row textarea {
     border: 1px solid rgba(0, 0, 0, 0.2);
